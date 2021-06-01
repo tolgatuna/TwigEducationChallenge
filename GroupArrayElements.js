@@ -1,6 +1,4 @@
 const groupArrayElements = (array, N) => {
-    if (N < 2) return array;
-
     const newArray = [[]]
     let group = 0;
     let interiorIndex = 0;

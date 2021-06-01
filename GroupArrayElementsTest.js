@@ -30,7 +30,7 @@ const test3 = groupArrayElements([1, 2, 3, 4, 5, 6], 2);
 assert.ok(groupedArrayEqual(test3, [[1, 2, 3], [4, 5, 6]]), 'Arrays are not equal');
 
 const test4 = groupArrayElements([1, 2, 3, 4, 5, 6], 1);
-assert.ok(groupedArrayEqual(test4, [1, 2, 3, 4, 5, 6]), 'Arrays are not equal');
+assert.ok(groupedArrayEqual(test4, [[1, 2, 3, 4, 5, 6]]), 'Arrays are not equal');
 
 const test5 = groupArrayElements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 3);
 assert.ok(groupedArrayEqual(test5, [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13]]), 'Arrays are not equal');
